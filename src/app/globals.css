@@ -97,3 +97,47 @@ body {
 .floating {
   animation: float 6s ease-in-out infinite;
 }
+
+@keyframes fadeInOverlay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeInOverlay 2s ease-out forwards;
+}
+
+.animate-fadeInText {
+  opacity: 0;
+  animation: fadeInText 1s ease-out forwards;
+}
+
+@keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.blur-fade-in {
+  animation: blurFadeIn 1.5s ease-out 2s forwards;
+}
