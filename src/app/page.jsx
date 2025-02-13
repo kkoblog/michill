@@ -127,7 +127,7 @@ const ImageSlideshow = () => {
     },
     {
       src: "/image/naikan.jpg",
-      alt: "店内の様子"
+      alt: "内観"
     }
   ];
 
@@ -1033,30 +1033,30 @@ function MainComponent() {
               <div className="md:w-2/3">
                 <div className="prose prose-sm md:prose-lg max-w-none">
                   <p className="space-y-4 md:space-y-6">
-                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed">
+                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
                       私は20代から美容師として現場に立つ中で40代以降の女性美容師が体力面や待遇面で疲弊し大好きな仕事を辞めていく姿をこれまでに何名も見てきました。
                     </span>
 
-                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed">
+                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
                       落ち着いた接客ができ、お客様の痛みにも寄り添える優秀な40代女性美容師が辞めていくことは同じ美容師としても心が痛く「いつか自身の店舗を持った際には40代以降の女性美容師が疲弊することなく、むしろ年齢も"安心感"に繋がるようなさサロン作りをしたい」と決め、michillが誕生したのです。ここは、
                     </span>
 
-                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed">
+                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
                       ・40代以降のお客様がメインだからこそ、若い美容師よりも40代以降の美容師が求められる<br />
                       ・同じ悩みを持つからこそ寄り添える<br />
                       ・予約が混み合い、低単価の施術ではなく、白髪老化ケアを通じて高価値のメニューを提供でき、求められる美容師へ
                     </span>
 
-                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed">
+                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
                       をコンセプトとし、現在では２名ではありますが、仲間を募集しています。
                     </span>
 
-                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed">
+                    <span className="block mb-4 md:mb-6 text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
                       数年ブランクがあっても、技術に自信が無くても結構です。<br />
                       当店では現場以外のお仕事もしていただけるよう設計しています。
                     </span>
 
-                    <span className="block text-gray-800 text-base md:text-lg leading-relaxed">
+                    <span className="block text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
                       まずは、働くにあたり弊社の説明も差し上げますのでご遠慮なく応募フォームまたはインスタよりDMをお待ちしております！
                     </span>
                   </p>
